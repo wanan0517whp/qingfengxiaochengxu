@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/isindex/main",
+
+
+    "pages/shouye/main",
+
+    
+
+  
+    
+
+    
+    "pages/wang/main",
+    
+    "pages/gift/main",
+    
+   
+    "pages/baoming/main",
+    
+   
+    "pages/diaocha/main",
+    "pages/topb/main",  
+    "pages/logs/main", 
+   
+    "pages/shuoming/main"
+   
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#8ED145",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true 
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "static/images/home-active.png",
+        "iconPath": "static/images/home.png",
+        "pagePath": "pages/isindex/main",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "static/images/tiantians.png",
+        "iconPath": "static/images/fangmao.png",
+        "pagePath": "pages/topb/main",
+        "text": "排行榜"
+      },
+      {
+        "selectedIconPath": "static/images/orders-active.png",
+        "iconPath": "static/images/orders.png",
+        "pagePath": "pages/shuoming/main",
+        "text": "说明"
+      }
+    ]
+  }
+}
